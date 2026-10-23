@@ -1,6 +1,6 @@
 // Offline support. Online: always fetch fresh (so updates and new icons show at once).
 // Offline: fall back to the last copy saved here.
-const CACHE = 'wol-mvl0ho8d';
+const CACHE = 'wol-mvl0kcld';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-512.png'];
 self.addEventListener('install', e => {
   // cache: 'reload' skips the browser's HTTP cache, so a new version never stores stale files.
